@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"student\/student_create[1:10]","start":1650411321756,"end":1650411322086,"title":"student\/student_create[1:10] 09:35:21.756-09:35:22.086 creating student"},{"id":2,"group":1,"content":"student\/student_create[2:37]","start":1650411322096,"end":1650411322309,"title":"student\/student_create[2:37] 09:35:22.096-09:35:22.309 invalid or missing client-id or authorisation"},{"id":3,"group":1,"content":"student\/student_create[3:61]","start":1650411322316,"end":1650411322513,"title":"student\/student_create[3:61] 09:35:22.316-09:35:22.513 email taken"},{"id":4,"group":1,"content":"student\/student_token[1:7]","start":1650411320514,"end":1650411321043,"title":"student\/student_token[1:7] 09:35:20.514-09:35:21.043 success"},{"id":5,"group":1,"content":"student\/student_token[2:21]","start":1650411321054,"end":1650411321178,"title":"student\/student_token[2:21] 09:35:21.054-09:35:21.178 invalid key"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

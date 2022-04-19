@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.student.student_create</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-04-19 08:37:48 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>success</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:35]"><span>[2:35]</span> <span>invalid or missing client-id or authorisation</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3:59]"><span>[3:59]</span> <span>email taken</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/student/student_create.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Student</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">student_created</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">success</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>961</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">69</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = call read(&#39;classpath:student/student_token.feature@token_create&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">478</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">student.student_token</div>
+      </div>
+      <div class="time-cell passed">425</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {key: &#39;quality-engineering&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">365</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.11">08:37:47.528 request:
+1 &gt; POST http://localhost:8500/token
+1 &gt; Client-Id: 2000
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;key&quot;:&quot;quality-engineering&quot;}
+
+08:37:47.720 response time in milliseconds: 189
+1 &lt; 200
+1 &lt; Content-Length: 1040
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-18T22:37:47Z
+{&quot;token&quot;:&quot;wwVbWusIsOGWaFIKgKpEvcpdEJNjMDQUKyAqoevbXqjOYapTTfrHjOBfkigiaUBHQPRddlHNmAPRJATdaIzvMjKTlZtSlCkhbDUwPmYnvUSRkjqxBdDxbuMucPjAobKObfSFsvUDvjKKIqHWfjNpBCfkfSdUQNXknizuGGPhwLRTjVghOqCMixEKhlsfqnLzZlYdDkgrMKSKwvKaBCRSjNufznPCYTamcTJTEyVsXfYxpIMgfRxpsMAaQTdFOAZmZlyKrZnevaugdACtwvFYGtiyaFdUagJwbctuMYIfYuKNtpkdcxnpJNNXlHRqXODRcqXmDCrttyyjIwbYSGxGKrLdserfxLpwzduRYWiuOhKleDKHLVZcJBxdrMlISQcJCtCFHcucIqIdJXevFwkCqzzCJtTsKrbqLJBCTseCYzkBXDyhrFPMqblkqDZdojITQiKjGbLqZfCQKoSkICQnWDJyJXTmWdkUdCPxUSwXShTVidtEVBPrjvosLPLamOwAaQGXjvsZqPpevAirxtoWQpyglAdLBjmSugNldTEyFxyXSnfpjoAZRoAzyPprdOVfQtJnaivccQYXCNYoBaDeUpHhiQbKLPGqzxxCWqbHcLuPmAhMmVwpMrLwdaqCEulLPkKQOnjqpPaffBMBmycPyMSpcezgKuDGSffksisDuOPKfcCcOPLlmtixNmyUGSjqTlMxMpJThyLRlzsZOKarmuKDjGRLUXTbYNDalPqVjygjUEjMHPztDoCQQxKWNoNvMRFBbtQunuhZLgoWhGueRxqxAkniIVqpFivHiicLUKYDHxFHQQGbzLXuQofyqyLJPqJKFuESarisjpcDvkJNqsoIPijDhFUxORNwwPFzpnYZyRKYNYgQLVgvHcslcKxDNwQHRysohiBJPvoDiHvlsfICfBaPOFWjIXKUHzHPBPgwqysCPlHtWEligXSjhyLkJRAtLiZbzpXmIVBCUCuvtYHrjYPOQuzIOHmCEpxjocvVAmfhoqeOYQjeQDwvXGbKinhd&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">32</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5.0.call.0.13">{
+  token: #present
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGen = Java.type(&#39;helper.DataGenerator&#39;);</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/student/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def randomEmail = dataGen.getRandomEmail()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">168</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.14">{
+  &#39;firstName&#39;: &#39;Joy&#39;,
+  &#39;lastName&#39;: &#39;Potter&#39;,
+  &#39;nationality&#39;: &#39;Australian&#39;,
+  &#39;dateOfBirth&#39;: &#39;14 April 2022&#39;,
+  &#39;email&#39;: #(randomEmail),
+  &#39;mobileNumber&#39;: &#39;1234 567 890&#39;
+  }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">228</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">08:37:47.943 request:
+1 &gt; POST http://localhost:8500/student/create
+1 &gt; Client-Id: 2000
+1 &gt; Authorization: null
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 154
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;firstName&quot;:&quot;Joy&quot;,&quot;lastName&quot;:&quot;Potter&quot;,&quot;nationality&quot;:&quot;Australian&quot;,&quot;dateOfBirth&quot;:&quot;14 April 2022&quot;,&quot;email&quot;:&quot;felipe34@test.com&quot;,&quot;mobileNumber&quot;:&quot;1234 567 890&quot;}
+
+08:37:48.168 response time in milliseconds: 225
+1 &lt; 401
+1 &lt; Content-Length: 35
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-18T22:37:47Z
+{&quot;message&quot;:&quot;Unauthorized request.&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref failed">26</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">08:37:48.171 src/test/java/student/student_create.feature:26
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 225, url: http://localhost:8500/student/create, response: 
+{&quot;message&quot;:&quot;Unauthorized request.&quot;}
+src/test/java/student/student_create.feature:26
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref skipped">27</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.27">{
+  &quot;id&quot;: &#39;#string&#39;,
+  &quot;message&quot;: &quot;New student was created successfully!&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:35]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:35]</span>
+                <span class="scenario-name">invalid or missing client-id or authorisation</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>229</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:35]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = call read(&#39;classpath:student/student_token.feature@token_create&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">145</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">student.student_token</div>
+      </div>
+      <div class="time-cell passed">128</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {key: &#39;quality-engineering&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">126</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.11">08:37:48.211 request:
+1 &gt; POST http://localhost:8500/token
+1 &gt; Client-Id: 2000
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;key&quot;:&quot;quality-engineering&quot;}
+
+08:37:48.336 response time in milliseconds: 125
+1 &lt; 200
+1 &lt; Content-Length: 1040
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-18T22:37:48Z
+{&quot;token&quot;:&quot;IathqRdCYdoOsBdStIjQYkiNusPRMrvzfXSAsACrEvWfVGBMJNRxafUpqalidaTBlXxMswSTDSSkCEvrMjLkdywGpBVRJoHtatiOiKNfxsrQImmqrppIXkjgyudMRatkcnuzCBNSwznvEmGDMZcGLELOgESWjupnxUvFggXwBNhaSijopduFmOYEilTjjVNiXvURqgwTUXJrwYxACxzolXGtPYqtQYHBMGaHXrBpSVEFLylWDpOmBnXJogAOvnErwAvGYiPdaoLiPXAdMCeyrLxFMTOhreTnQOhOdhcUtvEQvTQENXZSzGmLncJzzIxGDVZvxuMKqpWUjUkTnRkoqxUEzJcWfqSUYHmocXHPQZWWhJsudNemjzEyTLmwOCJJTDBmCIOPRejXjpifNmEpHQCLbQehdLlANSAcDrsIfGQyhiPbaPtZzcPjGLWBuEfZoQhKZKRQvlYwheNKXKjaDPGXfGzOtykJLOvGdcXCptLrarFuKvMmaztAsculnYkxXLDJtAsodTNKHvUNoCcYRRHKLJvTEwCLshwMnxeCDZRgcpmvItUrhTjyPGwMYlCQALSAzGsYyzKjcMHysSQopwXGUxjQFwzTndxvydpJTJSLkMXapTydjKaCqcUwIwVhSsRAdZKdghLjVHfPJeYZwzEuDwqCfVfAbxfDbcLrHmdRoKWPOvYroOsRbPGTzDknlCUPLgttDEdLvqynsmEvsqDhgRnMcLQHFbEAfdPyHsoZVCyOLpMNGamFEGIIKsnWpfHyetYUkqZnXrGprpDRxwBVgVpVpGgplWwykdPDBNXNiEKzalYRiMSkjugPMFyHGGuHThfGGDVuJPIwLANafUbDOQbLRxIbmTwxTfHSRtnidpQFgzJFQGQYBBNFtChnwmOnnZcQgncHFVNnCIkJyIeyGKOEogrBSIsRTQQmydBauzEIhfaXQazLpDNXptLGpKJpbBDokBccMZFvnpFjxIBFriTauieYjoEZWAfTToyEtYUXVuLZsQKLOHLPSHsEIcgQ&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5.0.call.0.13">{
+  token: #present
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[2:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGen = Java.type(&#39;helper.DataGenerator&#39;);</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/student/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.39">{
+  &#39;firstName&#39;: &#39;Joy&#39;,
+  &#39;lastName&#39;: &#39;Potter&#39;,
+  &#39;nationality&#39;: &#39;Australian&#39;,
+  &#39;dateOfBirth&#39;: &#39;14 April 2022&#39;,
+  &#39;email&#39;: #(randomEmail),
+  &#39;mobileNumber&#39;: &#39;1234 567 890&#39;
+  }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">75</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.50">08:37:48.346 request:
+1 &gt; POST http://localhost:8500/student/create
+1 &gt; Client-Id: 2000
+1 &gt; Authorization: null
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 151
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;firstName&quot;:&quot;Joy&quot;,&quot;lastName&quot;:&quot;Potter&quot;,&quot;nationality&quot;:&quot;Australian&quot;,&quot;dateOfBirth&quot;:&quot;14 April 2022&quot;,&quot;email&quot;:&quot;#(randomEmail)&quot;,&quot;mobileNumber&quot;:&quot;1234 567 890&quot;}
+
+08:37:48.419 response time in milliseconds: 73
+1 &lt; 401
+1 &lt; Content-Length: 35
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-18T22:37:48Z
+{&quot;message&quot;:&quot;Unauthorized request.&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref failed">51</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.51">08:37:48.420 src/test/java/student/student_create.feature:51
+Then status 400
+status code was: 401, expected: 400, response time in milliseconds: 73, url: http://localhost:8500/student/create, response: 
+{&quot;message&quot;:&quot;Unauthorized request.&quot;}
+src/test/java/student/student_create.feature:51
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref skipped">52</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.52">{
+  &quot;message&quot;: &quot;Unauthorized request.&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:59]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:59]</span>
+                <span class="scenario-name">email taken</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>189</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:59]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def result = call read(&#39;classpath:student/student_token.feature@token_create&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">111</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">student.student_token</div>
+      </div>
+      <div class="time-cell passed">101</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {key: &#39;quality-engineering&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">100</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.11">08:37:48.437 request:
+1 &gt; POST http://localhost:8500/token
+1 &gt; Client-Id: 2000
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;key&quot;:&quot;quality-engineering&quot;}
+
+08:37:48.533 response time in milliseconds: 96
+1 &lt; 200
+1 &lt; Content-Length: 1040
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-18T22:37:48Z
+{&quot;token&quot;:&quot;ZylsfRVTPmOqfszAEQpNNjTgrxasTiAiniFjTjQDPCzbOtTkkAqCdKNQXYvvpIIFehThjcgjlNEARCNrFjbAbwzyFBlPgFpLlVhPkfpSgmUaTBAcRPrCxbYJcboUtirSMVYMdwMsrVhwbqIWYfogAkRFDYRQjvVSkytcjhTPHVDUjZnTvCBoAehAdNJSUIlZgVuRHANkFChAqLqAlJWoIdlMvBXwuMnyszUYIzwctLZPyMTwgMVBrlTOYqTnXZiqfFQITnwckeflntjolwmGxCPZYmMfSbtFbixUQpsKWAsqgwEBEVOJYDXCDeDHCPGUJkJsAtoojTuWkOBwaULwChMVkJlkRsIELVbHrtStfwkIfyMdQHlzHKIkATEbcaRgMARbnzCzUTvdPtUOFujiadplLEDrkFMaZeeXyUWIMIeOlLTVGxxDdmGGNWFsvgJiYFULdXKDRMjZuLIvhniUORQPKDcccTpxkJZOKkwLtdwWNWXXYjSOtvypmQhkqjQMeMmTvzdDTatNVUhjnBxZYxiGuAxNYJKjDPpygZRftJZaIelqNzIlJFVjWxGDgFMLodCVPTcbPCHdHaaqYxeNJFyAkjQELREzMNpAUghIvUWUwTfsenHGnnHtZFphUFIyzzzHLFpzhMuHTmKrcBVpAonwtGimshUFXISoZNEmDXtSehXNMQvkeAQADIclBNNleNJNuiYtrvMRDECIruDJilnRBECYNeBjpfpeYhJxJqUUseWUGVGpfDclBesXRbVkbWxKhoIBLMtCKrdPJYXXNOdLSpyMldddTTmORaYnvLtYqvQSUciMnPpZFQzDbXOJtfOigqnghnsBozFJbWNgGInDJoLRMSjKUsEKzEHSNjiOSiRUBqLNRGKUwoZhAtQgtEzKrxtwIGlFilPXQCTzMwZfiPCsLiJOQzVSUbikOrxyCfsrlIIhgWujUSZqCJcJJsUQLBBUscJdmTmQLBuQgmfgNPWOXUgdXLmJxARGZujYINWpWYQpwVoSIQUaewxhfahR&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5.0.call.0.13">{
+  token: #present
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[3:59]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGen = Java.type(&#39;helper.DataGenerator&#39;);</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/student/create&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = result.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.63">{
+  &#39;firstName&#39;: &#39;Joy&#39;,
+  &#39;lastName&#39;: &#39;Potter&#39;,
+  &#39;nationality&#39;: &#39;Australian&#39;,
+  &#39;dateOfBirth&#39;: &#39;14 April 2022&#39;,
+  &#39;email&#39;: &#39;antionette62@test.com&#39;,
+  &#39;mobileNumber&#39;: &#39;1234 567 890&#39;
+  }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.74">
+      <div class="step-ref passed">74</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">77</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.74">08:37:48.536 request:
+1 &gt; POST http://localhost:8500/student/create
+1 &gt; Client-Id: 2000
+1 &gt; Authorization: null
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 158
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;firstName&quot;:&quot;Joy&quot;,&quot;lastName&quot;:&quot;Potter&quot;,&quot;nationality&quot;:&quot;Australian&quot;,&quot;dateOfBirth&quot;:&quot;14 April 2022&quot;,&quot;email&quot;:&quot;antionette62@test.com&quot;,&quot;mobileNumber&quot;:&quot;1234 567 890&quot;}
+
+08:37:48.612 response time in milliseconds: 76
+1 &lt; 401
+1 &lt; Content-Length: 35
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-18T22:37:48Z
+{&quot;message&quot;:&quot;Unauthorized request.&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.75">
+      <div class="step-ref failed">75</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.75">{
+  &quot;message&quot;: &quot;ERROR! Student exists!&quot;
+}</div>
+
+  
+
+  <div class="preformatted" data-parent="0.75">08:37:48.612 src/test/java/student/student_create.feature:75
+Then status 400
+&quot;&quot;&quot;
+{
+  &quot;message&quot;: &quot;ERROR! Student exists!&quot;
+}
+&quot;&quot;&quot;
+no step-definition method match found for: status 400
+src/test/java/student/student_create.feature:75
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

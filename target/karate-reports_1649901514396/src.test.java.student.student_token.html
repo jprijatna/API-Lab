@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.student.student_token</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">2</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-04-14 11:47:36 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>success</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:17]"><span>[2:17]</span> <span>invalid key</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/student/student_token.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Student</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">success</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>291</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">83</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">180</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">11:47:36.116 request:
+1 &gt; POST http://localhost:8500/token
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:47:36.144 response time in milliseconds: 26
+1 &lt; 502
+1 &lt; Content-Type: text/plain
+1 &lt; Date: Thu, 14 Apr 2022 01:47:36 GMT
+1 &lt; Content-Length: 1811
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/token&quot;,
+    &quot;Method&quot;: &quot;POST&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {},
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;/token&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;POST&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ],
+    &quot;body&quot;: [
+        {
+            &quot;matcher&quot;: &quot;jsonPath&quot;,
+            &quot;value&quot;: &quot;$.key&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[body]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;CREATE\&quot;,\n    \&quot;resource\&quot;: \&quot;token\&quot;\n  },\n  \&quot;key\&quot;: \&quot;{{ Request.Body &#39;jsonpath&#39; &#39;$.key&#39; }}\&quot;,\n  \&quot;token\&quot;: \&quot;{{ randomStringLength 1028 }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&#39;key&#39;: &#39;quality-engineering&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">11:47:36.174 src/test/java/student/student_token.feature:11
+Then status 200
+status code was: 502, expected: 200, response time in milliseconds: 26, url: http://localhost:8500/token, response: 
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/token&quot;,
+    &quot;Method&quot;: &quot;POST&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {},
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;/token&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;POST&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ],
+    &quot;body&quot;: [
+        {
+            &quot;matcher&quot;: &quot;jsonPath&quot;,
+            &quot;value&quot;: &quot;$.key&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[body]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;CREATE\&quot;,\n    \&quot;resource\&quot;: \&quot;token\&quot;\n  },\n  \&quot;key\&quot;: \&quot;{{ Request.Body &#39;jsonpath&#39; &#39;$.key&#39; }}\&quot;,\n  \&quot;token\&quot;: \&quot;{{ randomStringLength 1028 }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+src/test/java/student/student_token.feature:11
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref skipped">12</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def token = response.token</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:17]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:17]</span>
+                <span class="scenario-name">invalid key</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>16</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:17]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:17]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">11:47:36.188 request:
+1 &gt; POST http://localhost:8500/token
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:47:36.196 response time in milliseconds: 8
+1 &lt; 502
+1 &lt; Content-Type: text/plain
+1 &lt; Date: Thu, 14 Apr 2022 01:47:36 GMT
+1 &lt; Content-Length: 1811
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/token&quot;,
+    &quot;Method&quot;: &quot;POST&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {},
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;/token&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;POST&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ],
+    &quot;body&quot;: [
+        {
+            &quot;matcher&quot;: &quot;jsonPath&quot;,
+            &quot;value&quot;: &quot;$.key&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[body]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;CREATE\&quot;,\n    \&quot;resource\&quot;: \&quot;token\&quot;\n  },\n  \&quot;key\&quot;: \&quot;{{ Request.Body &#39;jsonpath&#39; &#39;$.key&#39; }}\&quot;,\n  \&quot;token\&quot;: \&quot;{{ randomStringLength 1028 }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = 2000</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;key&quot;: null}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref failed">22</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22">11:47:36.199 src/test/java/student/student_token.feature:22
+Then status 400
+status code was: 502, expected: 400, response time in milliseconds: 8, url: http://localhost:8500/token, response: 
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/token&quot;,
+    &quot;Method&quot;: &quot;POST&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {},
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;/token&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;POST&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ],
+    &quot;body&quot;: [
+        {
+            &quot;matcher&quot;: &quot;jsonPath&quot;,
+            &quot;value&quot;: &quot;$.key&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[body]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;CREATE\&quot;,\n    \&quot;resource\&quot;: \&quot;token\&quot;\n  },\n  \&quot;key\&quot;: \&quot;{{ Request.Body &#39;jsonpath&#39; &#39;$.key&#39; }}\&quot;,\n  \&quot;token\&quot;: \&quot;{{ randomStringLength 1028 }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+src/test/java/student/student_token.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref skipped">23</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.23">{
+  &quot;error&quot;: &quot;Invalid key!&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
