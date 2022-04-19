@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/student\/student_create[1:10]","start":1650319566140,"end":1650319566703,"title":"src\/test\/java\/student\/student_create[1:10] 08:06:06.140-08:06:06.703 success","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/student\/student_create[2:36]","start":1650319566719,"end":1650319566887,"title":"src\/test\/java\/student\/student_create[2:36] 08:06:06.719-08:06:06.887 email taken","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/student\/student_create[3:59]","start":1650319566891,"end":1650319567017,"title":"src\/test\/java\/student\/student_create[3:59] 08:06:06.891-08:06:07.017 invalid or missing client-id or authorisation","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

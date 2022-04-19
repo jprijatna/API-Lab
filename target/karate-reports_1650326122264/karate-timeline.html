@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/student\/student_create[1:10]","start":1650325257851,"end":1650325258885,"title":"src\/test\/java\/student\/student_create[1:10] 09:40:57.851-09:40:58.885 creating student"},{"id":2,"group":1,"content":"src\/test\/java\/student\/student_create[2:36]","start":1650325258891,"end":1650325259180,"title":"src\/test\/java\/student\/student_create[2:36] 09:40:58.891-09:40:59.180 invalid or missing client-id or authorisation"},{"id":3,"group":1,"content":"src\/test\/java\/student\/student_create[3:60]","start":1650325259191,"end":1650325259392,"title":"src\/test\/java\/student\/student_create[3:60] 09:40:59.191-09:40:59.392 email taken"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.Shopping_Cart.shopping_cart</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-04-13 06:28:30 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Success</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:12]"><span>[2:12]</span> <span>client id missing or invalid</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3:21]"><span>[3:21]</span> <span>incorrect type or discount or both</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/Shopping_Cart/shopping_cart.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Shopping Cart</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">Success</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>285</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">88</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = &quot;DPE-QE&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/shoppingcart/items&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param Type = &quot;Fresh&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param Discount = &quot;Applied&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">194</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">18:28:30.149 request:
+1 &gt; GET http://localhost:8500/shoppingcart/items?Type=Fresh&amp;Discount=Applied
+1 &gt; Client-Id: DPE-QE
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:28:30.175 response time in milliseconds: 24
+1 &lt; 502
+1 &lt; Content-Type: text/plain
+1 &lt; Date: Wed, 13 Apr 2022 08:28:30 GMT
+1 &lt; Content-Length: 1833
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/shoppingcart/items&quot;,
+    &quot;Method&quot;: &quot;GET&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {
+        &quot;Discount&quot;: [
+            &quot;Applied&quot;
+        ],
+        &quot;Type&quot;: [
+            &quot;Fresh&quot;
+        ]
+    },
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Client-Id&quot;: [
+            &quot;DPE-QE&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;regex&quot;,
+            &quot;value&quot;: &quot;/students&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;GET&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[path]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;GET\&quot;,\n    \&quot;resource\&quot;: \&quot;students\&quot;\n  },\n  \&quot;token\&quot;: \&quot;{{ Request.Header.Authorization }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref failed">10</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">18:28:30.177 src/test/java/Shopping_Cart/shopping_cart.feature:10
+Then status 200
+status code was: 502, expected: 200, response time in milliseconds: 24, url: http://localhost:8500/shoppingcart/items?Type=Fresh&amp;Discount=Applied, response: 
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/shoppingcart/items&quot;,
+    &quot;Method&quot;: &quot;GET&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {
+        &quot;Discount&quot;: [
+            &quot;Applied&quot;
+        ],
+        &quot;Type&quot;: [
+            &quot;Fresh&quot;
+        ]
+    },
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Client-Id&quot;: [
+            &quot;DPE-QE&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;regex&quot;,
+            &quot;value&quot;: &quot;/students&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;GET&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[path]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;GET\&quot;,\n    \&quot;resource\&quot;: \&quot;students\&quot;\n  },\n  \&quot;token\&quot;: \&quot;{{ Request.Header.Authorization }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+src/test/java/Shopping_Cart/shopping_cart.feature:10
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:12]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:12]</span>
+                <span class="scenario-name">client id missing or invalid</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>22</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/shoppingcart/items&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param Type = &quot;Fresh&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>param Discount = &quot;Applied&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">18:28:30.193 request:
+1 &gt; GET http://localhost:8500/shoppingcart/items?Type=Fresh&amp;Discount=Applied
+1 &gt; Client-Id: null
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:28:30.204 response time in milliseconds: 11
+1 &lt; 502
+1 &lt; Content-Type: text/plain
+1 &lt; Date: Wed, 13 Apr 2022 08:28:30 GMT
+1 &lt; Content-Length: 1833
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/shoppingcart/items&quot;,
+    &quot;Method&quot;: &quot;GET&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {
+        &quot;Discount&quot;: [
+            &quot;Applied&quot;
+        ],
+        &quot;Type&quot;: [
+            &quot;Fresh&quot;
+        ]
+    },
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Client-Id&quot;: [
+            &quot;DPE-QE&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;regex&quot;,
+            &quot;value&quot;: &quot;/students&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;GET&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[path]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;GET\&quot;,\n    \&quot;resource\&quot;: \&quot;students\&quot;\n  },\n  \&quot;token\&quot;: \&quot;{{ Request.Header.Authorization }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref failed">19</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 401</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">18:28:30.205 src/test/java/Shopping_Cart/shopping_cart.feature:19
+Then status 401
+status code was: 502, expected: 401, response time in milliseconds: 11, url: http://localhost:8500/shoppingcart/items?Type=Fresh&amp;Discount=Applied, response: 
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/shoppingcart/items&quot;,
+    &quot;Method&quot;: &quot;GET&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {
+        &quot;Discount&quot;: [
+            &quot;Applied&quot;
+        ],
+        &quot;Type&quot;: [
+            &quot;Fresh&quot;
+        ]
+    },
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Client-Id&quot;: [
+            &quot;DPE-QE&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;regex&quot;,
+            &quot;value&quot;: &quot;/students&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;GET&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[path]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;GET\&quot;,\n    \&quot;resource\&quot;: \&quot;students\&quot;\n  },\n  \&quot;token\&quot;: \&quot;{{ Request.Header.Authorization }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+src/test/java/Shopping_Cart/shopping_cart.feature:19
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:21]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:21]</span>
+                <span class="scenario-name">incorrect type or discount or both</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Client-Id = &quot;DPE-QE&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/shoppingcart/items&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref failed">25</div>
+      
+      <div class="step-cell failed">
+        <span>Given</span>&nbsp;<span>param Type =</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">18:28:30.214 src/test/java/Shopping_Cart/shopping_cart.feature:25
+Given param Type =
+no step-definition method match found for: param Type =
+src/test/java/Shopping_Cart/shopping_cart.feature:25
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref skipped">26</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>param Discount = null</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref skipped">27</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref skipped">28</div>
+      
+      <div class="step-cell skipped">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

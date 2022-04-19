@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.vehicle.vehicle_details</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-04-19 11:27:08 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>success</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/vehicle/vehicle_details.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">vehicle</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">success</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>243</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">64</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/vehicle/EAGLE576/details&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">178</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">11:27:07.974 request:
+1 &gt; GET http://localhost:8500/vehicle/EAGLE576/details
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_292)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:27:08.001 response time in milliseconds: 25
+1 &lt; 502
+1 &lt; Content-Type: text/plain
+1 &lt; Date: Tue, 19 Apr 2022 01:27:08 GMT
+1 &lt; Content-Length: 1676
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/vehicle/EAGLE576/details&quot;,
+    &quot;Method&quot;: &quot;GET&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {},
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;regex&quot;,
+            &quot;value&quot;: &quot;/students&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;GET&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[path]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;GET\&quot;,\n    \&quot;resource\&quot;: \&quot;students\&quot;\n  },\n  \&quot;token\&quot;: \&quot;{{ Request.Header.Authorization }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref failed">9</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">11:27:08.003 src/test/java/vehicle/vehicle_details.feature:9
+Then status 200
+status code was: 502, expected: 200, response time in milliseconds: 25, url: http://localhost:8500/vehicle/EAGLE576/details, response: 
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/vehicle/EAGLE576/details&quot;,
+    &quot;Method&quot;: &quot;GET&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {},
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_292)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;regex&quot;,
+            &quot;value&quot;: &quot;/students&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;GET&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[path]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;GET\&quot;,\n    \&quot;resource\&quot;: \&quot;students\&quot;\n  },\n  \&quot;token\&quot;: \&quot;{{ Request.Header.Authorization }}\&quot;,\n  \&quot;clientId\&quot;: \&quot;{{ Request.Header.Client-Id }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+src/test/java/vehicle/vehicle_details.feature:9
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
