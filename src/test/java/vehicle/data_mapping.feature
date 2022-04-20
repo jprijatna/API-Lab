@@ -11,7 +11,7 @@ Feature: data_mapping
   Scenario Outline: return responses data
     Given path '/vehicle/<RegistrationNumber>/details'
     When method GET
-    Then status 200;
+    Then status 200
     * def details_data = response
 
     Given path '/data/<RegistrationNumber>'
@@ -20,22 +20,20 @@ Feature: data_mapping
     * def source_data = response
     * def source_dob = $response.owner[*].dob
 
+    And print "i am here"
+
     * def dob_format =
       """
         function() {
-          for (var i = 0; i < response.owner; i++) {
-            var SimpleDateFormat = Java.type('java.text.SimpleDateFormat');
-            var sdf = new SimpleDateFormat('dd/MM/yyyy');
-            var oldDOB = source_data.owner[i].dob;
-            var date = sdf.parse(oldDOB);
+          for (var i = 0; i < response.owner.length; i++) {
+            var sdf = new SimpleDateFormat();
+            sdf = source_data.owner[i].dob;
             sdf.applyPattern('dd/MM/yyyy');
-             source_data.owner[i].dob = sdf.format(date);
+            source_data.owner[i].dob = sdf;
           }
+          return source_data.owner
         }
-        return details_data.owner
       """
-
-    * def response_convert = dob_format()
 
     And match details_data.data.vehicle.year == source_data.year
     And match details_data.data.vehicle.make == source_data.make
@@ -50,7 +48,7 @@ Feature: data_mapping
     And match details_data.data.registration.address[*].state == get source_data.addressModel[*].state
     And match details_data.data.registration.address[*].country == get source_data.addressModel[*].country
     And match details_data.data.owner[*].fullName == get source_data.owner[*].fullName
-#    And match details_data.data.owner[*].dateOfBirth == get source_convert[*].dob
+    And match details_data.data.owner[*].dateOfBirth == get source_date.owner[*].dob
     And match details_data.data.owner[*].driverLicense == get source_data.owner[*].license
     And match details_data.data.owner[*].isCurrentOwner == get source_data.owner[*].isCurrentOwner
 
