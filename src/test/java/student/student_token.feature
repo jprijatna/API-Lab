@@ -5,13 +5,13 @@ Feature: student_token
 
   @token_create
   Scenario: success
-   Given path '/token'
-   And request {key: 'quality-engineering'}
-   Given header Client-Id = 2000
-   When method POST
-   Then status 200
-   * def authToken = response["token"]
-   And match response ==
+    Given path '/token'
+    And request {key: 'quality-engineering'}
+    Given header Client-Id = 2000
+    When method POST
+    Then status 200
+    * def authToken = response["token"]
+    And match response ==
     """
     {
       token: #present

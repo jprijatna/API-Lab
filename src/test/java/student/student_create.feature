@@ -6,7 +6,7 @@ Feature: student_create
     * def dataGen = Java.type('helper.DataGenerator');
     * def auth_token = result.authToken
 
-@student_created
+  @student_created
   Scenario: creating student
     Given path '/student/create'
     * def randomEmail = dataGen.getRandomEmail()

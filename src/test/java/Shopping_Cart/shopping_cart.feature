@@ -60,6 +60,7 @@ Feature: shopping_cart
       "message":"Invalid request! Parameters are missing or invalid."
     }
   """
+
   Scenario: other cases
     Given path '/'
     When method GET
