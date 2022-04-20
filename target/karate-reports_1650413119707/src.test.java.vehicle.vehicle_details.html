@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.vehicle.vehicle_details</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-04-20 10:00:46 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:1]"><span>[1:1]</span> <span>success</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:1]"><span>[2:1]</span> <span>invalid registration</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:1]"><span>[3:1]</span> <span>error</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/vehicle/vehicle_details.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">vehicle</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:1]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:1]</span>
+                <span class="scenario-name">success</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>662</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:1]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">82</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/data/regos&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">337</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.1">10:00:45.334 request:
+1 &gt; GET http://localhost:8500/data/regos
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:00:45.431 response time in milliseconds: 95
+1 &lt; 200
+1 &lt; Content-Length: 606
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-20T00:00:45Z
+{&quot;data&quot;:[&quot;EAGLE576&quot;,&quot;FERRET835&quot;,&quot;COCKROACH756&quot;,&quot;CLAM041&quot;,&quot;FISH665&quot;,&quot;WOMBAT284&quot;,&quot;MACAW164&quot;,&quot;MOOSE368&quot;,&quot;FOX125&quot;,&quot;RABBIT488&quot;,&quot;CARIBOU051&quot;,&quot;LIZARD369&quot;,&quot;SQUIRREL970&quot;,&quot;MOOSE478&quot;,&quot;TORTOISE870&quot;,&quot;KANGAROO630&quot;,&quot;RACCOON883&quot;,&quot;GOOSE610&quot;,&quot;MARTEN882&quot;,&quot;BABOON610&quot;,&quot;GOOSE865&quot;,&quot;CAT420&quot;,&quot;CROCODILE298&quot;,&quot;BAT280&quot;,&quot;MULE285&quot;,&quot;MAMMOTH578&quot;,&quot;SWAN366&quot;,&quot;HORNET562&quot;,&quot;RABBIT771&quot;,&quot;DONKEY355&quot;,&quot;BEE234&quot;,&quot;COYOTE430&quot;,&quot;WATER BUFFALO670&quot;,&quot;PUG333&quot;,&quot;CRICKET558&quot;,&quot;ALLIGATOR517&quot;,&quot;GNAT018&quot;,&quot;SALMON759&quot;,&quot;BADGER238&quot;,&quot;GNAT768&quot;,&quot;BEAR955&quot;,&quot;OTTER044&quot;,&quot;PRAIRIE DOG084&quot;,&quot;GERBIL139&quot;,&quot;BABOON814&quot;,&quot;RHINOCEROS968&quot;,&quot;WOLF561&quot;,&quot;GORILLA113&quot;,&quot;WALLABY539&quot;,&quot;ELK341&quot;]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataInput = response.data</span>
+      </div>
+    </div>
+    <div class="time-cell passed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data = karate.map(dataInput, function(value, index) { return { RegistrationNumber: value} })</span>
+      </div>
+    </div>
+    <div class="time-cell passed">89</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/vehicle/&lt;RegistrationNumber&gt;/details&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">124</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.1">10:00:45.587 request:
+2 &gt; GET http://localhost:8500/vehicle/%3CRegistrationNumber%3E/details
+2 &gt; Host: localhost:8500
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+10:00:45.708 response time in milliseconds: 121
+2 &lt; 404
+2 &lt; Content-Length: 31
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: 2022-04-20T00:00:45Z
+{&quot;message&quot;:&quot;No vehicle found!&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref failed">1</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.1">10:00:45.710 src/test/java/vehicle/vehicle_details.feature:1
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 121, url: http://localhost:8500/vehicle/%3CRegistrationNumber%3E/details, response: 
+{&quot;message&quot;:&quot;No vehicle found!&quot;}
+src/test/java/vehicle/vehicle_details.feature:1
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:1]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:1]</span>
+                <span class="scenario-name">invalid registration</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>237</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:1]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/data/regos&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">127</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.1">10:00:45.727 request:
+1 &gt; GET http://localhost:8500/data/regos
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:00:45.851 response time in milliseconds: 124
+1 &lt; 200
+1 &lt; Content-Length: 606
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-20T00:00:45Z
+{&quot;data&quot;:[&quot;EAGLE576&quot;,&quot;FERRET835&quot;,&quot;COCKROACH756&quot;,&quot;CLAM041&quot;,&quot;FISH665&quot;,&quot;WOMBAT284&quot;,&quot;MACAW164&quot;,&quot;MOOSE368&quot;,&quot;FOX125&quot;,&quot;RABBIT488&quot;,&quot;CARIBOU051&quot;,&quot;LIZARD369&quot;,&quot;SQUIRREL970&quot;,&quot;MOOSE478&quot;,&quot;TORTOISE870&quot;,&quot;KANGAROO630&quot;,&quot;RACCOON883&quot;,&quot;GOOSE610&quot;,&quot;MARTEN882&quot;,&quot;BABOON610&quot;,&quot;GOOSE865&quot;,&quot;CAT420&quot;,&quot;CROCODILE298&quot;,&quot;BAT280&quot;,&quot;MULE285&quot;,&quot;MAMMOTH578&quot;,&quot;SWAN366&quot;,&quot;HORNET562&quot;,&quot;RABBIT771&quot;,&quot;DONKEY355&quot;,&quot;BEE234&quot;,&quot;COYOTE430&quot;,&quot;WATER BUFFALO670&quot;,&quot;PUG333&quot;,&quot;CRICKET558&quot;,&quot;ALLIGATOR517&quot;,&quot;GNAT018&quot;,&quot;SALMON759&quot;,&quot;BADGER238&quot;,&quot;GNAT768&quot;,&quot;BEAR955&quot;,&quot;OTTER044&quot;,&quot;PRAIRIE DOG084&quot;,&quot;GERBIL139&quot;,&quot;BABOON814&quot;,&quot;RHINOCEROS968&quot;,&quot;WOLF561&quot;,&quot;GORILLA113&quot;,&quot;WALLABY539&quot;,&quot;ELK341&quot;]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataInput = response.data</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data = karate.map(dataInput, function(value, index) { return { RegistrationNumber: value} })</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/vehicle/&lt;!registration&gt;/details&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">85</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.1">10:00:45.858 request:
+2 &gt; GET http://localhost:8500/vehicle/%3C!registration%3E/details
+2 &gt; Host: localhost:8500
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+10:00:45.941 response time in milliseconds: 83
+2 &lt; 404
+2 &lt; Content-Length: 31
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: 2022-04-20T00:00:45Z
+{&quot;message&quot;:&quot;No vehicle found!&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response ==</span>
+      </div>
+    </div>
+    <div class="time-cell passed">20</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.1">{        &quot;message&quot;: &quot;No vehicle found!&quot;      }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:1]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:1]</span>
+                <span class="scenario-name">error</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>129</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:1]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:8500&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/data/regos&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">113</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.1">10:00:45.969 request:
+1 &gt; GET http://localhost:8500/data/regos
+1 &gt; Host: localhost:8500
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:00:46.081 response time in milliseconds: 112
+1 &lt; 200
+1 &lt; Content-Length: 606
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: 2022-04-20T00:00:45Z
+{&quot;data&quot;:[&quot;EAGLE576&quot;,&quot;FERRET835&quot;,&quot;COCKROACH756&quot;,&quot;CLAM041&quot;,&quot;FISH665&quot;,&quot;WOMBAT284&quot;,&quot;MACAW164&quot;,&quot;MOOSE368&quot;,&quot;FOX125&quot;,&quot;RABBIT488&quot;,&quot;CARIBOU051&quot;,&quot;LIZARD369&quot;,&quot;SQUIRREL970&quot;,&quot;MOOSE478&quot;,&quot;TORTOISE870&quot;,&quot;KANGAROO630&quot;,&quot;RACCOON883&quot;,&quot;GOOSE610&quot;,&quot;MARTEN882&quot;,&quot;BABOON610&quot;,&quot;GOOSE865&quot;,&quot;CAT420&quot;,&quot;CROCODILE298&quot;,&quot;BAT280&quot;,&quot;MULE285&quot;,&quot;MAMMOTH578&quot;,&quot;SWAN366&quot;,&quot;HORNET562&quot;,&quot;RABBIT771&quot;,&quot;DONKEY355&quot;,&quot;BEE234&quot;,&quot;COYOTE430&quot;,&quot;WATER BUFFALO670&quot;,&quot;PUG333&quot;,&quot;CRICKET558&quot;,&quot;ALLIGATOR517&quot;,&quot;GNAT018&quot;,&quot;SALMON759&quot;,&quot;BADGER238&quot;,&quot;GNAT768&quot;,&quot;BEAR955&quot;,&quot;OTTER044&quot;,&quot;PRAIRIE DOG084&quot;,&quot;GERBIL139&quot;,&quot;BABOON814&quot;,&quot;RHINOCEROS968&quot;,&quot;WOLF561&quot;,&quot;GORILLA113&quot;,&quot;WALLABY539&quot;,&quot;ELK341&quot;]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataInput = response.data</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:1]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref bg-step">1</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def data = karate.map(dataInput, function(value, index) { return { RegistrationNumber: value} })</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.1">10:00:46.087 request:
+2 &gt; GET http://localhost:8500
+2 &gt; Host: localhost:8500
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+10:00:46.095 response time in milliseconds: 8
+2 &lt; 502
+2 &lt; Content-Type: text/plain
+2 &lt; Date: Wed, 20 Apr 2022 00:00:46 GMT
+2 &lt; Content-Length: 1596
+Hoverfly Error!
+
+There was an error when matching
+
+Got error: Could not find a match for request, create or record a valid matcher first!
+
+The following request was made, but was not matched by Hoverfly:
+
+{
+    &quot;Path&quot;: &quot;/&quot;,
+    &quot;Method&quot;: &quot;GET&quot;,
+    &quot;Destination&quot;: &quot;localhost:8500&quot;,
+    &quot;Scheme&quot;: &quot;http&quot;,
+    &quot;Query&quot;: {},
+    &quot;Body&quot;: &quot;&quot;,
+    &quot;Headers&quot;: {
+        &quot;Accept-Encoding&quot;: [
+            &quot;gzip,deflate&quot;
+        ],
+        &quot;Connection&quot;: [
+            &quot;Keep-Alive&quot;
+        ],
+        &quot;User-Agent&quot;: [
+            &quot;Apache-HttpClient/4.5.13 (Java/1.8.0_321)&quot;
+        ]
+    }
+}
+
+Whilst Hoverfly has the following state:
+
+{}
+
+The matcher which came closest was:
+
+{
+    &quot;path&quot;: [
+        {
+            &quot;matcher&quot;: &quot;regex&quot;,
+            &quot;value&quot;: &quot;/vehicle/(.*)/details&quot;
+        }
+    ],
+    &quot;method&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;GET&quot;
+        }
+    ],
+    &quot;destination&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;mv5.link.stub&quot;
+        }
+    ],
+    &quot;scheme&quot;: [
+        {
+            &quot;matcher&quot;: &quot;exact&quot;,
+            &quot;value&quot;: &quot;https&quot;
+        }
+    ]
+}
+
+But it did not match on the following fields:
+
+[path]
+
+Which if hit would have given the following response:
+
+{
+    &quot;status&quot;: 200,
+    &quot;body&quot;: &quot;{\n  \&quot;info\&quot;: {\n    \&quot;type\&quot;: \&quot;GET\&quot;,\n    \&quot;resource\&quot;: \&quot;vehicle\&quot;\n  },\n  \&quot;reg\&quot;: \&quot;{{ Request.Path.[1] }}\&quot;\n}&quot;,
+    &quot;encodedBody&quot;: false,
+    &quot;headers&quot;: {
+        &quot;Content-Type&quot;: [
+            &quot;application/json; charset=utf-8&quot;
+        ],
+        &quot;Date&quot;: [
+            &quot;{{ now “” “” }}&quot;
+        ]
+    },
+    &quot;templated&quot;: true
+}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.1">
+      <div class="step-ref passed">1</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 502</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

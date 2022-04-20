@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/vehicle\/vehicle_source[1.1:16]","start":1650413879247,"end":-1,"title":"src\/test\/java\/vehicle\/vehicle_source[1.1:16] 10:17:59.247-09:59:59.999 success","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/vehicle\/vehicle_source[2.1:30]","start":1650413879652,"end":-1,"title":"src\/test\/java\/vehicle\/vehicle_source[2.1:30] 10:17:59.652-09:59:59.999 invalid registration","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/vehicle\/vehicle_source[3:32]","start":1650413879756,"end":1650413879902,"title":"src\/test\/java\/vehicle\/vehicle_source[3:32] 10:17:59.756-10:17:59.902 other cases","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
